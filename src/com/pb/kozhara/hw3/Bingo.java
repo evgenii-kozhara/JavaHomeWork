@@ -7,7 +7,7 @@ public class Bingo {
     public static void main(String[] args) {
         int counter = 0;
         Random random = new Random();
-        int x  = random.nextInt(100) + 1;
+        int x  = random.nextInt(101);
         int y;
         System.out.println("Раді вітати вас у грі вгадай цифру");
 
@@ -15,12 +15,13 @@ public class Bingo {
             counter++;
             System.out.println("Будь ласка введіть цифру яке ви бажаєте");
             Scanner scanner = new  Scanner (System.in);
+            //y- число яке вказав гравець
             y = scanner.nextInt();
             if (y==222) break;
-            if ("y==x") {
+            if (y == x) {
                 System.out.println("Раді вас вітати ви вгадали число");
             }
-            if ("x < y") {
+            if (x < y) {
                 System.out.println("Велике, спробуйте знову");
             }
             if (x > y){
@@ -33,5 +34,4 @@ public class Bingo {
            else System.out.println("Дякую за участь");
         }
     }
-
 }
