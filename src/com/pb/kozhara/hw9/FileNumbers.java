@@ -12,7 +12,7 @@ public class FileNumbers {
     public static void main(String[] args) throws Exception {
         int size = 100;
         String nrFilePath = "Windows-SSD(C):\\Users\\38099\\IdeaProjects\\JavaHomeWork\\src\\com\\pb\\kozhara\\hw9\\numbers";
-        String oddPath = "Windows-SSD(C):\\Users\\38099\\IdeaProjects\\JavaHomeWork\\src\\com\\pb\\kozhara\\hw9\\numbers";
+        String oddPath = "Windows-SSD(C):\\Users\\38099\\IdeaProjects\\JavaHomeWork\\src\\com\\pb\\kozhara\\hw9\\odd-numbers";
         int[] array = new int[size]; // вихідний масив
         Random random = new Random();
         for (int i = 0; i < array.length; i++) {
