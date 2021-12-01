@@ -25,7 +25,7 @@ public class FileNumbers {
     }
     }
     public static void createOddNumbersFile() throws IOException {
-        Path path = Paths.get("C:\\Users\\dn270298kej\\IdeaProjects\\JavaHomeWork\\src\\com\\pb\\kozhara\\hw9\\numbers\"))
+        Path path = Paths.get("Windows-SSD(C):\\Users\\38099\\IdeaProjects\\JavaHomeWork\\src\\com\\pb\\kozhara\\hw9\\numbers\"))
     try (BufferedWriter w = Files.newBufferedWriter(annotherPath)) {
         for (int n = 0; n <= array.length - 1; n++) {
             if (n % 10 == 0) {
